@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:weather/search_screen.dart';
+import 'package:weather/screens/search_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -12,9 +12,14 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-debugShowCheckedModeBanner: false,
-      home: SearchScreen(cityName: 'cairo',),
+      debugShowCheckedModeBanner: false,
+      home: SearchScreen(),
     );
   }
 }
-
+// create states
+// create cubit
+// create function
+// provide cubit
+// integrate cubit
+// trigger cubit

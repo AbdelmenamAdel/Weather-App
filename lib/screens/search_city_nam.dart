@@ -9,11 +9,11 @@ class SearchCityName extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: Colors.orange,
         leading: IconButton(onPressed: (){
           Navigator.of(context).pop();
-        }, icon: Icon(Icons.arrow_back,color: Colors.white,)),
-        backgroundColor: Colors.blue,
-        title: Text('Search a city',style: TextStyle(color: Colors.white),),
+        }, icon: Icon(Icons.arrow_back,)),
+        title: Text('Search a city',),
       ),
       body: Padding(
         padding: EdgeInsets.symmetric(horizontal: 32),
